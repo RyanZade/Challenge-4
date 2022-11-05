@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <main>
+      <header class="container">
+        <div class="row">
+          <div class="col text-start">
+            <a id="highscoresPage">View Highscores</a>
+          </div>
+          <div class="col text-end" id="timer">
+            
+          </div>
+        </div>
+        </header>
+        
+        <body>
+          <div class="card">
+            <div class="card-header">
+              Atempt this Coding Quiz
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Coding Quiz</h5>
+              <p class="card-text">Answer the following questions</p>
+              <button class="btn btn-primary" id="btn1">Start Quiz</button>
+            </div>
+          </div>
+          <div class="card" id="question1">
+            <h2 class="card-header" id="firstQ"></h2>
+            <div class="card-body">
+              <button class="card-title" id="q1answer1" onclick="firstQuestionBtn(event)"></button>
+              <button class="card-title" id="q1answer2" onclick="firstQuestionBtn(event)"></button>
+              <button class="card-title" id="q1answer3" onclick="firstQuestionBtn(event)"></button>
+              <button class="card-title" id="q1answer4" onclick="firstQuestionBtn(event)"></button>
+            </div>
+          </div>
+          <div class="card" id="question2">
+            <h2 class="card-header" id="secondQ"></h2>
+            <div class="card-body">
+              <button class="card-title" id="q2answer1"  onclick="secondQBtn(event)"></button>
+              <button class="card-title" id="q2answer2"  onclick="secondQBtn(event)"></button>
+              <button class="card-title" id="q2answer3"  onclick="secondQBtn(event)"></button>
+              <button class="card-title" id="q2answer4"  onclick="secondQBtn(event)"></button>
+            </div>
+          </div>
+          <div class="card" id="question3">
+            <h2 class="card-header" id="thirdQ"></h2>
+            <div class="card-body">
+              <button class="card-title" id="q3answer1"  onclick="thirdQBtn(event)"></button>
+              <button class="card-title" id="q3answer2"  onclick="thirdQBtn(event)"></button>
+              <button class="card-title" id="q3answer3"  onclick="thirdQBtn(event)"></button>
+              <button class="card-title" id="q3answer4"  onclick="thirdQBtn(event)"></button>
+            </div>
+          </div>
+          <div class="card" id="results">
+            <h2 class="card-header" id="resultsId"></h2>
+            <div class="card-body">
+              <h4 class="card-title" id="score"></h4>
+              <input class="card-title" id="input" placeholder="Enter your name here"></input>
+              <button type="button" id="saveBtn" class="btn btn-primary">Save</button>
+              <h3 class="message"></h3>
+            </div>
+          </div>
+        </body>
+
+
+    <script src="./assets/js/script.js"></script>
+    </main>
+</html>
