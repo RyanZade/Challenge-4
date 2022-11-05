@@ -11,7 +11,7 @@ CSS files were used for site accessabilty and looks. JavaScript files were used 
       - CSS
       - Java Script
 
-The HTML file should be accessable from the https link: https://github.com/RyanZade/Challenge-4.git
+The HTML file should be accessable from the https link: https://ryanzade.github.io/Challenge-4/
 
 ![screenshot of website](./images/screenshot4.png "Screenshot")
 
