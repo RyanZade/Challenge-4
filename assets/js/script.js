@@ -106,7 +106,6 @@ function thirdQBtn(event){
   event.preventDefault()
   console.log(event.target.innerHTML);
   if(event.target.innerHTML === Questions[2].correctAnswer){
-    //localStorage.setItem("final_score", time);
     resultsPage(), resultsScore(); 
     time = 0;
   }
